@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+
+    <title>Tablas de verdad</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub_container">
+            <div class="moreInfo" id="moreInfo">
+                <div class="cerrar" id="cerrar">
+                    <img src="./imgs/cerrar.png" alt="">
+                </div>
+                <div class="info-container">
+                    <div class="instrucciones">
+                        <h1><b>Instrucciones</b></h1>
+                        <p>1. Se deben ingresar todas la proposiciones que van estar en las expresiones de otra froma el sistema dara error.</p>
+                        <p>2. Se pueden hacer expresiones de dos formas, usando los simbolos o su sintaxis en texto:</p>
+                        <table>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Simbolo</th>
+                                <th>Texto</th>
+                            </tr>
+                            <tr>
+                                <td>Negación</td>
+                                <td>¬ P</td>
+                                <td>!P</td>
+                            </tr>
+                            <tr>
+                                <td>Conjunción</td>
+                                <td>P ∧ Q</td>
+                                <td>P && Q</td>
+                            </tr>
+                            <tr>
+                                <td>Disyunción</td>
+                                <td>P ∨ Q</td>
+                                <td>P || Q</td>
+                            </tr>
+                            <tr>
+                                <td>Exclusiva</td>
+                                <td>P ⊻ Q</td>
+                                <td>P != Q</td>
+                            </tr>
+                            <tr>
+                                <td>Implicación</td>
+                                <td>P ⇒ Q</td>
+                                <td>!P || Q</td>
+                            </tr>
+                            <tr>
+                                <td>Bicondicional</td>
+                                <td>P ⇔ Q</td>
+                                <td>P === Q</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="creditos">
+                        <h1><b>Creditos</b></h1>
+                        <p>Este es el trabajo del proyecto programado para la clase de matemática discreta 2024 desarrollado por:</p>
+                        <div class="links">
+                            <a href="https://github.com/wikiknarf777">Francisco Torres</a>
+                            <a href="https://github.com/mvh404">Mauro Villegas</a>
+                            <a href="https://github.com/Tropicalboy21">Lenin Ugalde</a>
+                        </div>
+                        <p>Se puede acceder, leer y aprender sobre el codigo fuente en este repositorio de <a href="">github</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="icon" id="moon">
+                    <img src="./imgs/moon.png" alt="moon" id="moonIcon">
+                </div>
+                <div>
+                    <h1 class="title">Tablas de Verdad</h1>
+                </div>
+                <div class="icon2" id="info">
+                    <img src="./imgs/info.png" alt="info" id="infoIcon">
+                </div>
+            </div>
+            <div class="filas">
+                <label><b>Proposiciones<br></b> (separadas por coma)</label>
+                <input type="text" id="vars" value="P, Q">
+            </div>
+            <div class="filas">
+                <label><b>Expresiones<br></b> (separadas por coma)</label>
+                <input type="text" id="expresiones" value="P ∧ Q , P ∨ Q">
+            </div>
+            <div class="filas buttons">
+                <button id="agregarNegacion" class="btn">¬<span class="tooltiptext">Negación</span></button>
+                <button id="agregarConjuncion" class="btn">∧<span class="tooltiptext">Conjunción</span></button>
+                <button id="agregarDisyuncion" class="btn">∨<span class="tooltiptext">Disyunción</span></button>
+                <button id="agregarExclusiva" class="btn">⊻<span class="tooltiptext">Exclusiva</span></button>
+                <button id="agregarImplicacion" class="btn">⇒<span class="tooltiptext">Implicación</span></button>
+                <button id="agregarBicondicional" class="btn">⇔<span class="tooltiptext">Bicondicional</span></button>
+            </div>
+            <div class="filas button_contiainer">
+                <button id="obtenerResultado">Generar tabla de verdad.</button>
+                <button id="limpiar">Limpiar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="t-container">
+        <div id="resultado" ></div>
+    </div>
+    <div class="footer">
+        <p>Copyright ⓒ <span id="year"></span> | Todos los derechos reservados.</p>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

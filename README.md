@@ -4,7 +4,7 @@ Este es el proyecto programado para la clase de matemática discreta 2024. El ob
 
 Implementación del programa:
 
-[Tablas de Verdad]()
+[Tablas de Verdad](https://tablas-de-verdad-7bf59.web.app/)
 
 ## Tecnologías utilizadas:
 

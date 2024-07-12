@@ -1,0 +1,14 @@
+{
+  "name": "tablas_de_verdad",
+  "version": "1.0.0",
+  "description": "Este es el proyecto programado para la clase de matemática discreta 2024. El objetivo de este proyecto es crear un algoritmo capaz de generar la tabla de verdad de una proposición lógica dada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco, Mauro, Lenin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
