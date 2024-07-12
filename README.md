@@ -20,5 +20,4 @@ Implementacion del programa:
 - [Mauro Villegas](https://github.com/mvh404)
 - [Lenin Ugalde](https://github.com/Tropicalboy21)
   
-Bachillerato en Ingenieria del Software
-Universadad Cenfotec 
+Bachillerato en Ingenieria del Software - Universadad Cenfotec 
