@@ -1,12 +1,12 @@
 # Tablas de verdad
 
-Este es el proyecto programado para la clase de matemática discreta 2024. El objetivo de este projecto es crear un algoritmo capaz de generar la tabla de verdad de una proposición logica dada.
+Este es el proyecto programado para la clase de matemática discreta 2024. El objetivo de este proyecto es crear un algoritmo capaz de generar la tabla de verdad de una proposición lógica dada.
 
-Implementacion del programa:
+Implementación del programa:
 
 [Tablas de Verdad]()
 
-## Technologias utilizadas:
+## Tecnologías utilizadas:
 
 - HTML
 - CSS
@@ -20,4 +20,4 @@ Implementacion del programa:
 - [Mauro Villegas](https://github.com/mvh404)
 - [Lenin Ugalde](https://github.com/Tropicalboy21)
   
-Bachillerato en Ingenieria del Software - Universadad Cenfotec 
+Bachillerato en Ingeniería del Software - Universidad Cenfotec 
