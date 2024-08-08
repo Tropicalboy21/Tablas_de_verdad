@@ -112,9 +112,11 @@ p a:hover {
 
 
 input[type=text]{
-    padding: 5px 15px;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 339px;
     border: 1px solid #AAA;
-    border-radius: 2px;
+    border-radius: 5px;
     outline: none;
     background-color: transparent;
 }
@@ -141,13 +143,14 @@ input:-webkit-autofill:active  {
 
 .filas{
     padding: 5px;
-    display: flex;
+    /* display: flex; */
     align-content: center;
 }
 
 .filas label {
-    width: 220px;
+    width: 100%;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .btn {
